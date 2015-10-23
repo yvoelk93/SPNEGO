@@ -40,7 +40,7 @@ import org.ietf.jgss.GSSCredential;
  * @author Darwin V. Felix
  *
  */
-final class SpnegoHttpServletRequest extends HttpServletRequestWrapper 
+public final class SpnegoHttpServletRequest extends HttpServletRequestWrapper 
     implements DelegateServletRequest {
     
     /** Client Principal. */
